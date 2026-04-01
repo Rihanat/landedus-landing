@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>LandedUS — Jobs for International Students in the US</title>
-<meta name="description" content="Real-time sponsorship-aware jobs, OPT/CPT timelines, and a WhatsApp bot that fits into your daily life. Built for F-1 and J-1 students." />
+<title>LandedUS — Jobs for International Students in the U.S.</title>
+<meta name="description" content="Real-time sponsorship-aware jobs, OPT/CPT timelines, and a WhatsApp bot that fits into your daily life. Built for F-1 and J-1 students in the U.S." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -45,13 +45,13 @@ body { background: var(--white); color: var(--text); font-family: var(--font); f
 /* NAV */
 nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
 .nav-in { max-width: 1100px; margin: 0 auto; padding: 0 28px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
-.logo { font-size: 20px; font-weight: 800; color: var(--navy); text-decoration: none; letter-spacing: -0.5px; }
+.logo { font-size: 20px; font-weight: 800; color: var(--navy); text-decoration: none; letter-spacing: -0.5px; display: flex; align-items: center; }
 .logo span { color: var(--blue); }
 .nav-links { display: flex; align-items: center; gap: 32px; }
 .nav-links a { font-size: 14px; font-weight: 500; color: var(--text2); text-decoration: none; transition: color 0.15s; }
 .nav-links a:hover { color: var(--navy); }
-.nav-cta { background: var(--navy); color: #fff; font-size: 13px; font-weight: 700; padding: 9px 20px; border-radius: 8px; text-decoration: none; transition: background 0.2s; }
-.nav-cta:hover { background: var(--blue); color: #fff; }
+.nav-cta { background: #0D1F5C; color: #ffffff !important; font-size: 13px; font-weight: 700; padding: 9px 22px; border-radius: 8px; text-decoration: none !important; transition: background 0.2s; border: none; display: inline-block; line-height: normal; }
+.nav-cta:hover { background: #2445D4; color: #ffffff !important; }
 @media(max-width:680px){ .nav-links { display: none; } }
 
 /* HERO */
@@ -62,7 +62,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
 .hero-inner { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center; position: relative; z-index: 1; }
 @media(max-width:860px){ .hero-inner { grid-template-columns: 1fr; gap: 48px; } }
 
-.hero-announce { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.85); font-size: 12px; font-weight: 600; padding: 5px 14px; border-radius: 100px; margin-bottom: 28px; }
+.hero-announce { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); color: #ffffff; font-size: 13px; font-weight: 700; padding: 7px 16px; border-radius: 100px; margin-bottom: 28px; letter-spacing: 0.2px; }
 .announce-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: blink 2.2s ease-in-out infinite; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
@@ -330,8 +330,8 @@ footer { background: var(--navy-dark); padding: 52px 0 28px; }
   <div class="wrap">
     <div class="hero-inner">
       <div>
-        <div class="hero-announce"><span class="announce-dot"></span>Now with WhatsApp — jobs in your pocket</div>
-        <h1>You made it to the US.<br />Now let's get you <em>hired.</em></h1>
+        <div class="hero-announce"><span class="announce-dot"></span>F-1 to Hired — we know the road</div>
+        <h1>You made it to the U.S.<br />Now let's get you <em>hired.</em></h1>
         <p class="hero-sub">
           Real-time jobs filtered for your visa type. OPT/CPT timelines built into your search. And a <strong>WhatsApp bot that delivers it all without juggling another app.</strong>
         </p>
@@ -715,7 +715,7 @@ footer { background: var(--navy-dark); padding: 52px 0 28px; }
     <div class="foot-grid">
       <div>
         <span class="foot-logo">Landed<span>US</span></span>
-        <p class="foot-desc">The job board built for international students in the US. Sponsorship-aware, visa-informed, and actually on your side.</p>
+        <p class="foot-desc">The job board built for international students in the U.S. Sponsorship-aware, visa-informed, and actually on your side.</p>
       </div>
       <div class="foot-col">
         <h4>Product</h4>
@@ -740,7 +740,7 @@ footer { background: var(--navy-dark); padding: 52px 0 28px; }
       </div>
     </div>
     <div class="foot-bottom">
-      <p>© 2025 LandedUS · Built for international students in the US</p>
+      <p>© 2025 LandedUS · Built for international students in the U.S.</p>
       <p class="made">Made with <span>♥</span> by someone who lived it</p>
     </div>
   </div>
